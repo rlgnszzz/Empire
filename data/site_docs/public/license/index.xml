@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Licenses on Empire Docs</title>
+    <link>https://example.org/license/</link>
+    <description>Recent content in Licenses on Empire Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under BSD 3-clause New/Revised License</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 20:10:46 +0100</lastBuildDate>
+    
+	<atom:link href="https://example.org/license/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>License</title>
+      <link>https://example.org/license/</link>
+      <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
+      
+      <guid>https://example.org/license/</guid>
+      <description>Copyright &amp;copy; 2017, Will Schroeder, Justin Warner, Matt Nelson, Steve Borosh, Alex Rymdeko-harvey, Chris Ross All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+ Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</description>
+    </item>
+    
+  </channel>
+</rss>

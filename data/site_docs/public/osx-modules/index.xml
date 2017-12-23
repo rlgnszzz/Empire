@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osx-modules on Empire Docs</title>
+    <link>https://example.org/osx-modules/</link>
+    <description>Recent content in Osx-modules on Empire Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under BSD 3-clause New/Revised License</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 19:56:50 +0100</lastBuildDate>
+    
+	<atom:link href="https://example.org/osx-modules/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OSX Module Docs</title>
+      <link>https://example.org/osx-modules/</link>
+      <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
+      
+      <guid>https://example.org/osx-modules/</guid>
+      <description> Code Execution Collection Credentials Exfiltration Exploitation Lateral Movement Management Persistence Privesc Recon Situational Awareness TrollSploit </description>
+    </item>
+    
+  </channel>
+</rss>

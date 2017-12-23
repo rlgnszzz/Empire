@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Empire Docs</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Empire Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under BSD 3-clause New/Revised License</copyright>
+    <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
+    
+	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://example.org/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      
+      <guid>https://example.org/</guid>
+      <description>Empire Empire is a pure PowerShell post-exploitation agent built on cryptologically-secure communications and a flexible architecture. Empire implements the ability to run PowerShell agents without needing powershell.exe, rapidly deployable post-exploitation modules ranging from key loggers to Mimikatz, and adaptable communications to evade network detection, all wrapped up in a usability-focused framework. It premiered at BSidesLV in 2015.
+Empire relies heavily on the work from several other projects for its underlying functionality.</description>
+    </item>
+    
+    <item>
+      <title>Getting started</title>
+      <link>https://example.org/getting-started/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>https://example.org/getting-started/</guid>
+      <description>Supported Platforms We only support a few base platforms at this time:
+ Debian / Kali Ubuntu LTS Fedora  Initial Setup Run the ./setup/install.sh script. This will install the few dependencies and run the ./setup/setup_database.py script. The setup_database.py file contains various setting that you can manually modify, and then initializes the ./data/empire.db backend database. No additional configuration should be needed- hopefully everything works out of the box.
+Running .</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://example.org/overview/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>https://example.org/overview/</guid>
+      <description>Quick Start Main Menu Once you hit the main menu, you&amp;rsquo;ll see the number of active agents, listeners, and loaded modules.
+================================================================ [Empire] Post-Exploitation Framework ================================================================ [Version] 2.3 | [Web] https://github.com/empireProject/Empire ================================================================ _______ .___ ___. .______ __ .______ _______ | ____|| \/ | | _ \ | | | _ \ | ____| | |__ | \ / | | |_) | | | | |_) | | |__ | __| | |\/| | | ___/ | | | / | __| | |____ | | | | | | | | | |\ \----.</description>
+    </item>
+    
+    <item>
+      <title>Empire Core</title>
+      <link>https://example.org/empire-core/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>https://example.org/empire-core/</guid>
+      <description>Agent Types Within Empire, the implant currently uses two primary languages:
+ Python - any platform that supports python 2.5+ PowerShell - any Windows platform that supports PowerShell v2  Its not always clear what and where something works when you begin to support multi-platform architecture such as Empire. This has always been a design challenge for the development team to keep it clean and logical. Empire as a project has multiple supported platforms, but simply we have built for the core three operating systems:</description>
+    </item>
+    
+    <item>
+      <title>OSX Module Docs</title>
+      <link>https://example.org/linux-modules/</link>
+      <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
+      
+      <guid>https://example.org/linux-modules/</guid>
+      <description> Code Execution Collection Credentials Exfiltration Exploitation Lateral Movement Management Persistence Privesc Recon Situational Awareness TrollSploit </description>
+    </item>
+    
+    <item>
+      <title>OSX Module Docs</title>
+      <link>https://example.org/osx-modules/</link>
+      <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
+      
+      <guid>https://example.org/osx-modules/</guid>
+      <description> Code Execution Collection Credentials Exfiltration Exploitation Lateral Movement Management Persistence Privesc Recon Situational Awareness TrollSploit </description>
+    </item>
+    
+    <item>
+      <title>OSX Module Docs</title>
+      <link>https://example.org/powershell-modules/</link>
+      <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
+      
+      <guid>https://example.org/powershell-modules/</guid>
+      <description> Code Execution Collection Credentials Exfiltration Exploitation Lateral Movement Management Persistence Privesc Recon Situational Awareness TrollSploit </description>
+    </item>
+    
+    <item>
+      <title>REST API</title>
+      <link>https://example.org/rest-api/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      
+      <guid>https://example.org/rest-api/</guid>
+      <description>Empire 1.5.0 introduced a RESTful API that allows for scripting and control of Empire through HTTP JSON requests.
+This API and documentation are based on the excellent example set by the BeEF Project. All credit to @antisnatchor and the entire BeEF community for the great examples to draw on.
+ Introduction API Authentication Version Information Configuration Information Admin Functionality Listeners Stagers Agents Modules Credentials Reporting  Introduction There are currently two ways to launch the Empire RESTful API.</description>
+    </item>
+    
+    <item>
+      <title>Roadmap</title>
+      <link>https://example.org/roadmap/</link>
+      <pubDate>Wed, 09 Mar 2016 20:08:11 +0100</pubDate>
+      
+      <guid>https://example.org/roadmap/</guid>
+      <description>Quo vadis? The port of the original Material theme has replicated nearly all of its features. A few are still missing but I&amp;rsquo;ve good news: the Hugo community is actively working on this issues. Maybe with the next release of Hugo we can abandon this list. Stay tuned.
+Localization Currently, it is possible to collect all strings in a single place for easy customization. However, this only enables you to define all strings in a single language.</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://example.org/license/</link>
+      <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
+      
+      <guid>https://example.org/license/</guid>
+      <description>Copyright &amp;copy; 2017, Will Schroeder, Justin Warner, Matt Nelson, Steve Borosh, Alex Rymdeko-harvey, Chris Ross All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+ Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</description>
+    </item>
+    
+  </channel>
+</rss>

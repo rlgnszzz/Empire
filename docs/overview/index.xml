@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overviews on Empire Docs</title>
+    <link>https://example.org/overview/</link>
+    <description>Recent content in Overviews on Empire Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under BSD 3-clause New/Revised License</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
+    
+	<atom:link href="https://example.org/overview/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>https://example.org/overview/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>https://example.org/overview/</guid>
+      <description>Quick Start Main Menu Once you hit the main menu, you&amp;rsquo;ll see the number of active agents, listeners, and loaded modules.
+================================================================ [Empire] Post-Exploitation Framework ================================================================ [Version] 2.3 | [Web] https://github.com/empireProject/Empire ================================================================ _______ .___ ___. .______ __ .______ _______ | ____|| \/ | | _ \ | | | _ \ | ____| | |__ | \ / | | |_) | | | | |_) | | |__ | __| | |\/| | | ___/ | | | / | __| | |____ | | | | | | | | | |\ \----.</description>
+    </item>
+    
+  </channel>
+</rss>

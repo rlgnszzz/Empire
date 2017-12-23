@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="en-us">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>Overview - Empire Docs</title>
+    <meta name="generator" content="Hugo 0.31.1" />
+
+    
+    <meta name="description" content="Building a cross platform Empire with PowerShell/Python.">
+    
+    <link rel="canonical" href="https://example.org/overview/">
+    
+    <meta name="author" content="EmpireProject">
+    
+
+    <meta property="og:url" content="https://example.org/overview/">
+    <meta property="og:title" content="Empire Docs">
+    <meta property="og:image" content="https://example.org/images/empire-logo.png">
+    <meta name="apple-mobile-web-app-title" content="Empire Docs">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://example.org/images/empire-logo.png">
+    <link rel="icon" type="image/x-icon" href="https://example.org/images/empire-logo.png">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('https://example.org/fonts/icon.eot');
+        src: url('https://example.org/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('https://example.org/fonts/icon.woff')
+               format('woff'),
+             url('https://example.org/fonts/icon.ttf')
+               format('truetype'),
+             url('https://example.org/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="https://example.org/stylesheets/application.css">
+    <link rel="stylesheet" href="https://example.org/stylesheets/temporary.css">
+    <link rel="stylesheet" href="https://example.org/stylesheets/palettes.css">
+    <link rel="stylesheet" href="https://example.org/stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="https://example.org/javascripts/modernizr.js"></script>
+
+    
+
+  </head>
+  <body class="palette-primary-blue palette-accent-blue">
+
+
+
+	
+	
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Overview
+      </div>
+    </div>
+
+    
+
+    
+    <div class="button button-github" role="button" aria-label="GitHub">
+      <a href="https://github.com/empireproject" title="@empireproject on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+    </div>
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="https://github.com/EmpireProject/Empire" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="https://example.org/images/empire-logo.png">
+        </div>
+      
+      <div class="name">
+        <strong>Empire Docs <span class="version">2.3</span></strong>
+        
+          <br>
+          EmpireProject/Empire
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="https://github.com/EmpireProject/Empire/archive/master.zip" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/EmpireProject/Empire/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Introduction" href="https://example.org/">
+	
+	Introduction
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Getting started" href="https://example.org/getting-started/">
+	
+	Getting started
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a class="current" title="Overview" href="https://example.org/overview/">
+	
+	Overview
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Empire Core" href="https://example.org/empire-core/">
+	
+	Empire Core
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="OSX Modules" href="https://example.org/osx-modules/">
+	
+	OSX Modules
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Linux Modules" href="https://example.org/linux-modules/">
+	
+	Linux Modules
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="PowerShell Modules" href="https://example.org/powershell-modules/">
+	
+	PowerShell Modules
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="REST API" href="https://example.org/rest-api/">
+	
+	REST API
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Roadmap" href="https://example.org/roadmap/">
+	
+	Roadmap
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="License" href="https://example.org/license/">
+	
+	License
+</a>
+
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+        <hr>
+        <span class="section">The author</span>
+        
+        <ul>
+          
+
+          
+          <li>
+            <a href="https://github.com/empireproject" target="_blank" title="@empireproject on GitHub">
+              @empireproject on GitHub
+            </a>
+          </li>
+          
+
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1>Overview </h1>
+
+			
+
+<h2 id="quick-start">Quick Start</h2>
+
+<h3 id="main-menu">Main Menu</h3>
+
+<p>Once you hit the main menu, you&rsquo;ll see the number of active agents, listeners, and loaded modules.</p>
+
+<pre><code>================================================================
+ [Empire]  Post-Exploitation Framework
+================================================================
+ [Version] 2.3 | [Web] https://github.com/empireProject/Empire
+================================================================
+
+   _______ .___  ___. .______    __  .______       _______
+  |   ____||   \/   | |   _  \  |  | |   _  \     |   ____|
+  |  |__   |  \  /  | |  |_)  | |  | |  |_)  |    |  |__
+  |   __|  |  |\/|  | |   ___/  |  | |      /     |   __|
+  |  |____ |  |  |  | |  |      |  | |  |\  \----.|  |____
+  |_______||__|  |__| | _|      |__| | _| `._____||_______|
+
+
+       282 modules currently loaded
+
+       0 listeners currently active
+
+       0 agents currently active
+
+
+(Empire) &gt;
+</code></pre>
+
+<p>The <strong>help</strong> command should work for all menus, and almost everything that can be tab-completable is (menu commands, agent names, local file paths where relevant, etc.).</p>
+
+<p>You can ctrl+C to rage quit at any point. Starting Empire back up should preserve existing communicating agents, and any existing listeners will be restarted (as their config is stored in the sqlite backend database).</p>
+
+<h3 id="listeners-101">Listeners 101</h3>
+
+<p>The first thing you need to do it set up a local listener. The <strong>listeners</strong> command will jump you to the listener management menu. Any active listeners will be displayed, and this information can be redisplayed at any time with the <strong>list</strong> command. The <code>uselistener</code> command will allow you to select the type of listener. Hitting TAB after this command will show all available listener types. The info command will display the currently set listener options.</p>
+
+<pre><code>(Empire: listeners) &gt; uselistener
+dbx           http          http_com      http_foreign  http_hop      http_mapi     meterpreter   
+(Empire: listeners) &gt; uselistener http
+(Empire: listeners/http) &gt; info
+
+    Name: HTTP[S]
+Category: client_server
+
+Authors:
+  @harmj0y
+
+Description:
+  Starts a http[s] listener (PowerShell or Python) that uses a
+  GET/POST approach.
+
+HTTP[S] Options:
+
+  Name              Required    Value                            Description
+  ----              --------    -------                          -----------
+  SlackToken        False                                        Your SlackBot API token to communicate with your Slack instance.
+  ProxyCreds        False       default                          Proxy credentials ([domain\]username:password) to use for request (default, none, or other).
+  KillDate          False                                        Date for the listener to exit (MM/dd/yyyy).
+  Name              True        http                             Name for the listener.
+  Launcher          True        powershell -noP -sta -w 1 -enc   Launcher string.
+  DefaultDelay      True        5                                Agent delay/reach back interval (in seconds).
+  DefaultLostLimit  True        60                               Number of missed checkins before exiting
+  WorkingHours      False                                        Hours for the agent to operate (09:00-17:00).
+  SlackChannel      False       #general                         The Slack channel or DM that notifications will be sent to.
+  DefaultProfile    True        /admin/get.php,/news.php,/login/ Default communication profile for the agent.
+                                process.php|Mozilla/5.0 (Windows
+                                NT 6.1; WOW64; Trident/7.0;
+                                rv:11.0) like Gecko
+  Host              True        http://172.17.0.2:80             Hostname/IP for staging.
+  CertPath          False                                        Certificate path for https listeners.
+  DefaultJitter     True        0.0                              Jitter in agent reachback interval (0.0-1.0).
+  Proxy             False       default                          Proxy to use for request (default, none, or other).
+  UserAgent         False       default                          User-agent string to use for the staging request (default, none, or other).
+  StagingKey        True        TtcRbe!5{h#VWyNr1Sm47paJ8Czo?Mn@ Staging key for initial agent negotiation.
+  BindIP            True        0.0.0.0                          The IP to bind to on the control server.
+  Port              True        80                               Port for the listener.
+  ServerVersion     True        Microsoft-IIS/7.5                Server header for the control server.
+  StagerURI         False                                        URI for the stager. Must use /download/. Example: /download/stager.php
+
+
+(Empire: listeners/http) &gt;
+</code></pre>
+
+<p>The info command will display the currently configured listener options. Set your host/port by doing something like set Host <a href="http://192.168.52.142:8081">http://192.168.52.142:8081</a>. This is tab-completable, and you can also use domain names here). The port will automatically be pulled out, and the backend will detect if you&rsquo;re doing a HTTP or HTTPS listener. For HTTPS listeners, you must first set the CertPath to be a local .pem file. The provided <strong>./setup/cert.sh</strong> script will generate a self-signed cert and place it in <strong>./data/empire.pem</strong>.</p>
+
+<p>Set optional and WorkingHours, KillDate, DefaultDelay, and DefaultJitter for the listener, as well as whatever name you want it to be referred to as. You can then type <strong>execute</strong> to start the listener. If the name is already taken, a nameX variant will be used, and Empire will alert you if the port is already in use.</p>
+
+<h3 id="stagers-101">Stagers 101</h3>
+
+<p>Empire implements various stagers in a modular format in *<em>./lib/stagers/</em> **. These include dlls, macros, one-liners, and more. To use a stager, from the main, listeners, or agents menu, use usestager [tab] to tab-complete the set of available stagers, and you&rsquo;ll be taken to the individual stager&rsquo;s menu. The UI here functions similarly to the post module menu, i.e set/unset/info and generate to generate the particular output code.</p>
+
+<p>For UserAgent and proxy options, default uses the system defaults, none clears that option from being used in the stager, and anything else is assumed to be a custom setting (note, this last bit isn&rsquo;t properly implemented for proxy settings yet). From the Listeners menu, you can run the <strong>launcher [listener ID/name]</strong> alias to generate the stage0 launcher for a particular listener (this is the stagers/launcher module in the background). This command can be run from a command prompt on any machine to kick off the staging process.</p>
+
+<h3 id="agents-101">Agents 101</h3>
+
+<p>You should see a status message when an agent checks in (i.e. [+] Initial agent CGUBKC1R3YLHZM4V from 192.168.52.168 now active). Jump to the Agents menu with <strong>agents</strong>. Basic information on active agents should be displayed. Various commands can be executed on specific agent IDs or <strong>all</strong> from the agent menu, i.e. <strong>kill all</strong>. To interact with an agent, use <strong>interact AGENT_NAME</strong>. Agent names should be tab-completable for all commands.</p>
+
+<pre><code>[+] Initial agent P20XQ4XJ from 172.17.0.2 now active (Slack)
+
+
+(Empire: stager/multi/launcher) &gt; agents
+
+[*] Active agents:
+
+  Name            Lang  Internal IP     Machine Name    Username            Process             Delay    Last Seen
+  ---------       ----  -----------     ------------    ---------           -------             -----    --------------------
+  P20XQ4XJ        py    172.17.0.2      e7059c42661b    *root               python/59           5/0.0    2017-12-05 22:29:53
+
+(Empire: agents) &gt; interact P20XQ4XJ
+(Empire: P20XQ4XJ) &gt;
+</code></pre>
+
+<p>In an Agent menu, <strong>info</strong> will display more detailed agent information, and help will display all agent commands. If a typed command isn&rsquo;t resolved, Empire will try to interpret it as a shell command (like ps). You can <strong>cd</strong> directories, <strong>upload/download</strong> files, and <strong>rename NEW_NAME</strong>.</p>
+
+<p>For each registered agent, a <strong>./downloads/AGENT_NAME/</strong> folder is created (this folder is renamed with an agent rename). An ./agent.log is created here with timestamped commands/results for agent communication. Downloads/module outputs are broken out into relevant folders here as well.</p>
+
+<p>When you&rsquo;re finished with an agent, use <strong>exit</strong> from the Agent menu or <strong>kill NAME/all</strong> from the Agents menu. You&rsquo;ll get a red notification when the agent exits, and the agent will be removed from the interactive list after.</p>
+
+<h3 id="modules-101">Modules 101</h3>
+
+<p>To see available modules, type <strong>usemodule [tab]</strong>. To search module names/descriptions, use <strong>searchmodule privesc</strong> and matching module names/descriptions will be output.</p>
+
+<p>To use a module, for example share finder from PowerView, type <strong>usemodule situational_awareness/network/sharefinder</strong> and press enter. info will display all current module options.</p>
+
+<pre><code>(Empire: P20XQ4XJ) &gt; usemodule situational_awareness/network/port_scan
+(Empire: python/situational_awareness/network/port_scan) &gt; info
+
+              Name: Port Scanner.
+            Module: python/situational_awareness/network/port_scan
+        NeedsAdmin: False
+         OpsecSafe: True
+          Language: python
+MinLanguageVersion: 2.6
+        Background: True
+   OutputExtension: None
+
+Authors:
+  @424f424f
+
+Description:
+  Simple Port Scanner.
+
+Comments:
+  CIDR Parser credits to http://bibing.us.es/proyectos/abrepro
+  y/12106/fichero/ARCHIVOS%252Fservidor_xmlrpc%252Fcidr.py
+
+Options:
+
+  Name   Required    Value                     Description
+  ----   --------    -------                   -----------
+  Target True                                  Targets to scan in single, range 0-255  
+                                               or CIDR format.                         
+  Agent  True        P20XQ4XJ                  Agent to execute module on.             
+  Port   True        8080                      The port to scan for.                   
+
+</code></pre>
+
+<p>To set an option, like the port scanner, use <code>set Port 80</code>. The Agent argument is always required, and should be auto-filled from jumping to a module from an agent menu. You can also <strong>set Agent [tab]</strong> to tab-complete an agent name. <strong>execute</strong> will task the agent to execute the module, and <strong>back</strong> will return you to the agent&rsquo;s main menu. Results will be displayed as they come back.</p>
+
+<h3 id="scripts">Scripts</h3>
+
+<p>In addition to formalized modules, you are able to simply import and use a .ps1 script in your remote empire agent. Use the <strong>scriptimport ./path/</strong> command to import the script. The script will be imported and any functions accessible to the script will now be tab completable using the &ldquo;scriptcmd&rdquo; command in the agent. This works well for very large scripts with lots of functions that you do not want to break into a module.</p>
+
+<h2 id="architecture">Architecture</h2>
+
+<p>TODO</p>
+
+<h2 id="staging">Staging</h2>
+
+<p>The key-exchange protocol used by Empire is called <a href="https://en.wikipedia.org/wiki/Encrypted_key_exchange">Encrypted Key Exchange</a> (EKE). There’s a better overview <a href="http://stackoverflow.com/questions/15779392/encrypted-key-exchange-understanding">here</a>.</p>
+
+<p>For Empire, a small launcher (a basic proxy-aware IEX download cradle) is used to download/execute the patched <strong>./data/stager.ps1</strong> script. The URI resource for this request can be specified in <strong>./setup_database.py</strong> under the <strong>STAGE0_URI</strong> paramater. The <strong>stager.ps1</strong> is case-randomized then XOR encrypted with the AES staging key from the database config. This means the key-negotiation stager delivered to each agent will be randomized/different per server, but will be static for each server instance. The staging key is sent with the launcher in order to decrypt the stager, so is assumed to be &ldquo;burned&rdquo; by network defenders.</p>
+
+<p>This stager generates a randomized RSA private/public key pair in memory, uses the AES staging key to post the encrypted RSA public key to the <strong>STAGE1_URI</strong> resource (also specifiable in <strong>./setup_database.py</strong>). A random 12-character SESSIONID is also generated at this point, which is the initial name the agent uses to check in. After this post, the server returns the server’s epoch time and a randomized AES session key, encrypted in the agent’s public key.</p>
+
+<p>The agent decrypts the values, gathers basic system information, and posts this information to the server encrypted with the new AES session key to <strong>STAGE2_URI</strong>. The server then returns the patched <strong>./data/agent.ps1</strong>, which can be thought of as the standard API. From here, the agent starts its beaconing behavior.</p>
+
+<p><img src="https://example.org/images/empire_staging_process.png" alt="alt text" /></p>
+
+<h2 id="multi-platform-support">Multi-Platform Support</h2>
+
+<p>TODO
+One of the powerhouse parts of</p>
+
+
+			<aside class="copyright" role="note">
+				
+				&copy; 2017 Released under BSD 3-clause New/Revised License &ndash;
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="https://example.org/getting-started/" title="Getting started">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Getting started
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="https://example.org/empire-core/" title="Empire Core">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              Empire Core
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = 'https:\/\/example.org\/';
+      var repo_id  = 'EmpireProject\/Empire';
+    
+    </script>
+
+    <script src="https://example.org/javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
