@@ -23,3 +23,7 @@ Contributions are more than welcome! The more people who contribute to the proje
 * PowerShell Version 2 compatibility is **STRONGLY** preferred. 
 * TEST YOUR MODULE! Be sure to run it from an Empire agent before submitting a pull to ensure everything is working correctly.
 * For additional guidelines for your PowerShell code itself, check out the [PowerSploit style guide](https://github.com/PowerShellMafia/PowerSploit/blob/master/README.md).
+
+### Contribution Docs
+ 
+Empire has become a significant framework, maintaining this is not easy, and documentation is a crucial part of that. For any module, please add documentation to the pull request. This can be easily added to the Markdown files within the `data/site_docs/content` folder. We use HUGO to compile and deploy the docs, and you can easily `cd` into this directory and run `hugo server` to view your changes.
